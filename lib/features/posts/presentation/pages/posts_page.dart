@@ -1,5 +1,5 @@
-import 'package:clean_architecture_posts_app/features/posts/presentation/pages/post_add_update_page.dart';
-import 'package:clean_architecture_posts_app/features/posts/presentation/pages/tasks_page.dart';
+import 'package:employee_management_app/features/posts/presentation/pages/post_add_update_page.dart';
+import 'package:employee_management_app/features/posts/presentation/pages/tasks_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:percent_indicator/circular_percent_indicator.dart';

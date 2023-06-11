@@ -1,4 +1,5 @@
-import 'package:clean_architecture_posts_app/features/posts/domain/entities/task.dart';
+
+import '../../domain/entities/task.dart';
 
 
 class TaskModel extends Task {

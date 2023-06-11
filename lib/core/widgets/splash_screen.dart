@@ -1,6 +1,7 @@
 import 'dart:async';
-import 'package:clean_architecture_posts_app/features/posts/presentation/pages/posts_page.dart';
 import 'package:flutter/material.dart';
+
+import '../../features/posts/presentation/pages/posts_page.dart';
 
 
 void main() { runApp(SplashScreen());}
