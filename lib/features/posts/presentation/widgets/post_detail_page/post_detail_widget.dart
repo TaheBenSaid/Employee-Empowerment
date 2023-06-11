@@ -16,7 +16,7 @@ class PostDetailWidget extends StatelessWidget {
       child: Column(
         children: [
           Text(
-            post.title,
+            "This Survey was submitted on ${post.title}",
             style: TextStyle(
               fontSize: 20,
               fontWeight: FontWeight.bold,

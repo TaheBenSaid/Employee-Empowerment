@@ -23,8 +23,11 @@ class MyApp extends StatelessWidget {
           BlocProvider(create: (_) => di.sl<AddDeleteUpdatePostBloc>()),
         ],
         child: MaterialApp(
+            theme: ThemeData(
+                primarySwatch: Colors.purple
+            ),
             debugShowCheckedModeBanner: false,
-            theme: appTheme,
+           // theme: appTheme,
             title: 'Posts App',
             home: SplashScreen()));
   }
